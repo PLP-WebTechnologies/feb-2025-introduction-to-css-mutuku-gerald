@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <style>
+        /* Style for the body */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style for the header with class "main-header" */
+        .main-header {
+            text-align: center;
+            color: #333;
+            background-color: #4CAF50;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Style for the paragraph with ID "intro-text" */
+        #intro-text {
+            font-size: 18px;
+            color: #666;
+            padding: 10px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+
+        /* Style for the image with class "styled-img" */
+        .styled-img {
+            width: 50%;
+            border: 5px solid #4CAF50;
+            border-radius: 8px;
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Welcome to CSS Styling</h1>
+    </header>
+
+    <section>
+        <p id="intro-text">
+            This is a simple example of applying CSS styles. The page uses colors, typography, and layout properties like margin, padding, and borders.
+        </p>
+        <img src="your-image.jpg" alt="Styled Image" class="styled-img">
+    </section>
+
+</body>
+</html>
